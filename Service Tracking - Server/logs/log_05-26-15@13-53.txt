@@ -1,0 +1,18 @@
+---LOG STARTED---
+[05/26/2015 1:53:35 PM] [INFO] [Server main] : Server startup initiated
+[05/26/2015 1:53:35 PM] [INFO] [File manager] : Starting up
+[05/26/2015 1:53:35 PM] [INFO] [Server main] : Server display active
+[05/26/2015 1:53:41 PM] [INFO] [Thread 0] : Checked in new client
+[05/26/2015 1:53:41 PM] [INFO] [Thread 0] : Providing hardware inventory
+[05/26/2015 1:53:42 PM] [INFO] [Thread 0] : Providing images inventory
+[05/26/2015 1:53:45 PM] [INFO] [File manager] : Computer "EvenNewerMachine" now loaded by request
+[05/26/2015 1:53:45 PM] [INFO] [Thread 0] : Providing requested computer: EvenNewerMachine
+[05/26/2015 1:53:47 PM] [INFO] [File manager] : Computer "testMachine" now loaded by request
+[05/26/2015 1:53:47 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[05/26/2015 1:54:01 PM] [INFO] [Thread 0] : Client checked out
+[05/26/2015 1:54:16 PM] [INFO] [Server main] : Shutdown initiated with mode: 1
+[05/26/2015 1:54:16 PM] [INFO] [File manager] : Shutdown initiated
+[05/26/2015 1:54:16 PM] [INFO] [File manager] : Shutdown complete.
+[05/26/2015 1:54:16 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[05/26/2015 1:54:16 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---LOG CLOSED---

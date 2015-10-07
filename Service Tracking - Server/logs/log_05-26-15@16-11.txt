@@ -1,0 +1,35 @@
+---LOG STARTED---
+[05/26/2015 4:11:45 PM] [INFO] [Server main] : Server startup initiated
+[05/26/2015 4:11:45 PM] [INFO] [File manager] : Starting up
+[05/26/2015 4:11:45 PM] [INFO] [Server main] : Server display active
+[05/26/2015 4:11:52 PM] [INFO] [Server main] : Allocating new connection slot
+[05/26/2015 4:11:52 PM] [INFO] [Thread 0] : Checked in new client
+[05/26/2015 4:11:52 PM] [INFO] [Thread 0] : Providing hardware inventory
+[05/26/2015 4:11:53 PM] [INFO] [Thread 0] : Providing images inventory
+[05/26/2015 4:11:55 PM] [INFO] [File manager] : Computer "francis" now loaded by request
+[05/26/2015 4:11:55 PM] [INFO] [Thread 0] : Providing requested computer: francis
+[05/26/2015 4:11:56 PM] [INFO] [File manager] : Computer "EvenNewerMachine" now loaded by request
+[05/26/2015 4:11:56 PM] [INFO] [Thread 0] : Providing requested computer: EvenNewerMachine
+[05/26/2015 4:11:57 PM] [INFO] [File manager] : Computer "testMachine" now loaded by request
+[05/26/2015 4:11:57 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[05/26/2015 4:12:07 PM] [INFO] [File manager] : Starting a sub thread to track new hardware: additional computer
+[05/26/2015 4:12:07 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[05/26/2015 4:12:07 PM] [INFO] [File manager->Sub thread] : New computer added: additional computer
+[05/26/2015 4:12:15 PM] [INFO] [File manager] : New image "another image" added to image inventory
+[05/26/2015 4:12:21 PM] [INFO] [File manager] : New image "third image" added to image inventory
+[05/26/2015 4:12:24 PM] [INFO] [Thread 0] : Providing requested computer: francis
+[05/26/2015 4:12:25 PM] [INFO] [Thread 0] : Providing requested computer: EvenNewerMachine
+[05/26/2015 4:12:25 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[05/26/2015 4:12:26 PM] [INFO] [Thread 0] : Providing requested computer: francis
+[05/26/2015 4:12:28 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[05/26/2015 4:12:38 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[05/26/2015 4:12:38 PM] [INFO] [File manager] : Offloaded 4 computers from memory
+[05/26/2015 4:12:38 PM] [INFO] [Thread 0] : Client checked out
+[05/26/2015 4:13:32 PM] [INFO] [Server main] : Shutdown initiated with mode: 3
+[05/26/2015 4:13:32 PM] [INFO] [File manager] : Shutdown initiated
+[05/26/2015 4:13:32 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[05/26/2015 4:13:32 PM] [INFO] [File manager] : Offloaded 0 computers from memory
+[05/26/2015 4:13:32 PM] [INFO] [File manager] : Shutdown complete.
+[05/26/2015 4:13:32 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[05/26/2015 4:13:32 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---LOG CLOSED---

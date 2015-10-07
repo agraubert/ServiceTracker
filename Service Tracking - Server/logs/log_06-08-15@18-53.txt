@@ -1,0 +1,33 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version -17) made by Aaron Graubert
+[06/08/2015 6:53:54 PM] [INFO] [Server main] : Server startup initiated
+[06/08/2015 6:53:54 PM] [INFO] [File manager] : Starting up
+[06/08/2015 6:53:54 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[06/08/2015 6:53:55 PM] [INFO] [Server main] : Server display active
+[06/08/2015 6:53:55 PM] [INFO] [Server main] : *****Startup complete.  Server is now live*****
+[06/08/2015 6:54:00 PM] [INFO] [Server main] : Allocating new connection slot
+[06/08/2015 6:54:00 PM] [INFO] [Thread 0] : Checked in new client
+[06/08/2015 6:54:00 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 6:54:01 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 6:54:07 PM] [ERROR] [Thread 0->Comms] : IO error while reading string. Message reads: java.io.EOFException @ java.io.DataInputStream.readUnsignedShort(DataInputStream.java:340) --> java.io.DataInputStream.readUTF(DataInputStream.java:589) --> java.io.DataInputStream.readUTF(DataInputStream.java:564) --> io.ServerComms.readUTF(ServerComms.java:44) --> main.ServerThread.service(ServerThread.java:78) --> main.ServerThread.run(ServerThread.java:40) --> java.lang.Thread.run(Thread.java:745)
+[06/08/2015 6:54:07 PM] [ERROR] [Thread 0] : Encountered an error while connected to client. Message reads: java.lang.NullPointerException @ main.ServerThread.service(ServerThread.java:79) --> main.ServerThread.run(ServerThread.java:40) --> java.lang.Thread.run(Thread.java:745)
+[06/08/2015 6:54:07 PM] [INFO] [Thread 0] : Client checked out
+[06/08/2015 6:54:13 PM] [INFO] [Thread 0] : Checked in new client
+[06/08/2015 6:54:13 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 6:54:14 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 6:54:22 PM] [INFO] [Thread 0] : Client checked out
+[06/08/2015 7:24:32 PM] [INFO] [Thread 0] : Checked in new client
+[06/08/2015 7:24:33 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 7:24:33 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 7:24:38 PM] [INFO] [Thread 0] : Client checked out
+[06/08/2015 7:52:10 PM] [INFO] [Server main] : *****Shutdown initiated with mode: 1*****
+[06/08/2015 7:52:10 PM] [INFO] [File manager] : Shutdown initiated
+[06/08/2015 7:52:10 PM] [INFO] [File manager] : Database empty.  Offload processs skipped.
+[06/08/2015 7:52:10 PM] [INFO] [File manager] : Shutdown complete.
+[06/08/2015 7:52:10 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[06/08/2015 7:52:10 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---Error summary---
+[ERROR] [Thread 0->Comms] : IO error while reading string. Message reads: java.io.EOFException @ java.io.DataInputStream.readUnsignedShort(DataInputStream.java:340) --> java.io.DataInputStream.readUTF(DataInputStream.java:589) --> java.io.DataInputStream.readUTF(DataInputStream.java:564) --> io.ServerComms.readUTF(ServerComms.java:44) --> main.ServerThread.service(ServerThread.java:78) --> main.ServerThread.run(ServerThread.java:40) --> java.lang.Thread.run(Thread.java:745)
+[ERROR] [Thread 0] : Encountered an error while connected to client. Message reads: java.lang.NullPointerException @ main.ServerThread.service(ServerThread.java:79) --> main.ServerThread.run(ServerThread.java:40) --> java.lang.Thread.run(Thread.java:745)
+Please resolve these errors before starting the server again
+---LOG CLOSED---

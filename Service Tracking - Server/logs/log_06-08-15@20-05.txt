@@ -1,0 +1,83 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version -17) made by Aaron Graubert
+[06/08/2015 8:05:38 PM] [INFO] [Server main] : Server startup initiated
+[06/08/2015 8:05:38 PM] [INFO] [File manager] : Starting up
+[06/08/2015 8:05:38 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[06/08/2015 8:05:39 PM] [INFO] [Server main] : Server display active
+[06/08/2015 8:05:39 PM] [INFO] [Server main] : *****Startup complete.  Server is now live*****
+[06/08/2015 8:05:41 PM] [INFO] [Server main] : Allocating new connection slot
+[06/08/2015 8:05:41 PM] [INFO] [Thread 0] : Checked in new client
+[06/08/2015 8:05:42 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 8:05:43 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 8:05:53 PM] [INFO] [File manager] : Computer "testMachine" now loaded by request
+[06/08/2015 8:05:53 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[06/08/2015 8:05:56 PM] [INFO] [File manager] : Computer "v-17 test" now loaded by request
+[06/08/2015 8:05:56 PM] [INFO] [Thread 0] : Providing requested computer: v-17 test
+[06/08/2015 8:05:59 PM] [INFO] [File manager] : Computer "francis" now loaded by request
+[06/08/2015 8:05:59 PM] [INFO] [Thread 0] : Providing requested computer: francis
+[06/08/2015 8:06:04 PM] [INFO] [File manager] : Computer "Drive computer" now loaded by request
+[06/08/2015 8:06:04 PM] [INFO] [Thread 0] : Providing requested computer: Drive computer
+[06/08/2015 8:07:17 PM] [INFO] [Server main] : Allocating new connection slot
+[06/08/2015 8:07:17 PM] [INFO] [Thread 1] : Checked in new client
+[06/08/2015 8:07:17 PM] [INFO] [Thread 1] : Providing hardware inventory
+[06/08/2015 8:07:18 PM] [INFO] [Thread 1] : Providing images inventory
+[06/08/2015 8:08:08 PM] [INFO] [File manager] : Starting a sub thread to track new hardware: concurrency changes test
+[06/08/2015 8:08:08 PM] [INFO] [File manager->Sub thread] : New computer added: concurrency changes test
+[06/08/2015 8:08:12 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 8:08:13 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 8:08:15 PM] [INFO] [Thread 0] : Providing requested computer: concurrency changes test
+[06/08/2015 8:09:11 PM] [INFO] [Thread 1] : Preparing to edit requested computer: concurrency changes test
+[06/08/2015 8:09:11 PM] [INFO] [File manager] : Computer "concurrency changes test" has been updated
+[06/08/2015 8:09:15 PM] [INFO] [Thread 0] : Providing requested computer: Drive computer
+[06/08/2015 8:09:16 PM] [INFO] [Thread 0] : Providing requested computer: concurrency changes test
+[06/08/2015 8:09:40 PM] [INFO] [Thread 1] : Providing requested computer: Drive computer
+[06/08/2015 8:09:41 PM] [INFO] [File manager] : Computer "additional computer" now loaded by request
+[06/08/2015 8:09:41 PM] [INFO] [Thread 1] : Providing requested computer: additional computer
+[06/08/2015 8:10:05 PM] [INFO] [Thread 1] : Providing requested computer: concurrency changes test
+[06/08/2015 8:10:23 PM] [INFO] [Thread 1] : Preparing to edit requested computer: concurrency changes test
+[06/08/2015 8:10:23 PM] [WARN] [File manager] : Computer "concurrency changes test" has been renamed to "concurrency name changed".  File index is being updated.
+[06/08/2015 8:10:23 PM] [INFO] [File manager] : Computer "concurrency name changed" has been updated
+[06/08/2015 8:10:26 PM] [INFO] [Thread 0] : Providing requested computer: Drive computer
+[06/08/2015 8:10:27 PM] [INFO] [Thread 0] : Client requested bad computer: concurrency changes test
+[06/08/2015 8:10:31 PM] [INFO] [File manager] : Computer "EvenNewerMachine" now loaded by request
+[06/08/2015 8:10:31 PM] [INFO] [Thread 0] : Providing requested computer: EvenNewerMachine
+[06/08/2015 8:10:33 PM] [INFO] [Thread 0] : Providing requested computer: Drive computer
+[06/08/2015 8:10:36 PM] [INFO] [Thread 0] : Client requested bad computer: concurrency changes test
+[06/08/2015 8:10:39 PM] [INFO] [Thread 0] : Providing requested computer: Drive computer
+[06/08/2015 8:10:40 PM] [INFO] [Thread 0] : Client requested bad computer: concurrency changes test
+[06/08/2015 8:10:42 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 8:10:43 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 8:10:45 PM] [INFO] [Thread 0] : Providing requested computer: concurrency name changed
+[06/08/2015 8:10:59 PM] [INFO] [Thread 0] : Client added note to computer: concurrency name changed
+[06/08/2015 8:11:02 PM] [INFO] [Thread 1] : Providing requested computer: additional computer
+[06/08/2015 8:11:03 PM] [INFO] [Thread 1] : Providing requested computer: concurrency name changed
+[06/08/2015 8:11:21 PM] [INFO] [Thread 0] : Preparing to edit requested computer: concurrency name changed
+[06/08/2015 8:11:22 PM] [WARN] [File manager] : Computer "concurrency name changed" has been renamed to "concurrency name changed fornote".  File index is being updated.
+[06/08/2015 8:11:22 PM] [INFO] [File manager] : Computer "concurrency name changed fornote" has been updated
+[06/08/2015 8:11:30 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[06/08/2015 8:11:38 PM] [INFO] [Thread 0] : Client added note to computer: testMachine
+[06/08/2015 8:11:40 PM] [INFO] [Thread 0] : Providing requested computer: v-17 test
+[06/08/2015 8:11:41 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[06/08/2015 8:11:43 PM] [INFO] [Thread 0] : Providing requested computer: concurrency name changed fornote
+[06/08/2015 8:12:06 PM] [INFO] [Thread 1] : Providing hardware inventory
+[06/08/2015 8:12:07 PM] [INFO] [Thread 1] : Providing images inventory
+[06/08/2015 8:12:09 PM] [INFO] [Thread 1] : Providing requested computer: concurrency name changed fornote
+[06/08/2015 8:12:20 PM] [INFO] [Thread 0] : Preparing to edit requested computer: concurrency name changed fornote
+[06/08/2015 8:12:21 PM] [INFO] [File manager] : Computer "concurrency name changed fornote" has been updated
+[06/08/2015 8:12:44 PM] [INFO] [Thread 1] : Transmitting patch for computer: concurrency name changed fornote
+[06/08/2015 8:12:44 PM] [INFO] [Thread 1] : Client added note to computer: concurrency name changed fornote
+[06/08/2015 8:12:57 PM] [INFO] [Thread 1] : Client initated standard shutdown
+[06/08/2015 8:12:57 PM] [INFO] [Thread 1] : Client checked out
+[06/08/2015 8:12:57 PM] [INFO] [Server main] : *****Shutdown initiated with mode: 1*****
+[06/08/2015 8:14:57 PM] [INFO] [Server main] : Finished waiting for threads
+[06/08/2015 8:14:57 PM] [INFO] [File manager] : Shutdown initiated
+[06/08/2015 8:14:57 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[06/08/2015 8:14:57 PM] [INFO] [File manager] : Offloaded 7 computers from memory
+[06/08/2015 8:14:57 PM] [INFO] [File manager] : Shutdown complete.
+[06/08/2015 8:14:57 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[06/08/2015 8:14:57 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---Warning summary---
+[WARN] [File manager] : Computer "concurrency changes test" has been renamed to "concurrency name changed".  File index is being updated.
+[WARN] [File manager] : Computer "concurrency name changed" has been renamed to "concurrency name changed fornote".  File index is being updated.
+It is recommended that you review each warning to avoid further problems
+---LOG CLOSED---

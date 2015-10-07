@@ -1,0 +1,24 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version -13) made by Aaron Graubert
+[05/26/2015 6:03:34 PM] [INFO] [Server main] : Server startup initiated
+[05/26/2015 6:03:34 PM] [INFO] [File manager] : Starting up
+[05/26/2015 6:03:34 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[05/26/2015 6:03:34 PM] [INFO] [Server main] : Server display active
+[05/26/2015 6:03:38 PM] [INFO] [Server main] : Allocating new connection slot
+[05/26/2015 6:03:38 PM] [INFO] [Thread 0] : Checked in new client
+[05/26/2015 6:03:38 PM] [INFO] [Thread 0] : Providing hardware inventory
+[05/26/2015 6:03:39 PM] [INFO] [Thread 0] : Providing images inventory
+[05/26/2015 6:03:44 PM] [ERROR] [Thread 0] : Encountered an error while connected to client. Message reads: null
+[05/26/2015 6:03:44 PM] [INFO] [Thread 0] : Client checked out
+[05/26/2015 6:03:53 PM] [INFO] [Server main] : Shutdown initiated with mode: 1
+[05/26/2015 6:03:53 PM] [INFO] [File manager] : Shutdown initiated
+[05/26/2015 6:03:53 PM] [INFO] [File manager] : Database empty.  Offload process canceled.
+[05/26/2015 6:03:53 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[05/26/2015 6:03:53 PM] [INFO] [File manager] : Offloaded 0 computers from memory
+[05/26/2015 6:03:53 PM] [INFO] [File manager] : Shutdown complete.
+[05/26/2015 6:03:53 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[05/26/2015 6:03:53 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---Error summary---
+[ERROR] [Thread 0] : Encountered an error while connected to client. Message reads: null
+Please resolve these errors before starting the server again
+---LOG CLOSED---

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ServiceTracking - Client</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/wuFavicon.ico</name>
+			<type>1</type>
+			<location>C:/Users/Aaron/workspace/Vanilla/ServiceTracking - Client/wuFavicon.ico</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,28 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version -15) made by Aaron Graubert
+[05/27/2015 3:48:29 PM] [INFO] [Server main] : Server startup initiated
+[05/27/2015 3:48:29 PM] [INFO] [File manager] : Starting up
+[05/27/2015 3:48:29 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[05/27/2015 3:48:30 PM] [INFO] [Server main] : Server display active
+[05/27/2015 3:48:35 PM] [INFO] [Server main] : Allocating new connection slot
+[05/27/2015 3:48:35 PM] [INFO] [Thread 0] : Checked in new client
+[05/27/2015 3:48:35 PM] [INFO] [Thread 0] : Providing hardware inventory
+[05/27/2015 3:48:36 PM] [INFO] [Thread 0] : Providing images inventory
+[05/27/2015 3:48:38 PM] [INFO] [File manager] : Computer "additional computer" now loaded by request
+[05/27/2015 3:48:38 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[05/27/2015 3:48:38 PM] [INFO] [File manager] : Computer "EvenNewerMachine" now loaded by request
+[05/27/2015 3:48:38 PM] [INFO] [Thread 0] : Providing requested computer: EvenNewerMachine
+[05/27/2015 3:48:39 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[05/27/2015 3:48:41 PM] [INFO] [File manager] : Computer "francis" now loaded by request
+[05/27/2015 3:48:41 PM] [INFO] [Thread 0] : Providing requested computer: francis
+[05/27/2015 3:48:42 PM] [INFO] [File manager] : Computer "testMachine" now loaded by request
+[05/27/2015 3:48:42 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[05/27/2015 3:48:45 PM] [INFO] [Thread 0] : Client checked out
+[05/27/2015 3:48:50 PM] [INFO] [Server main] : Shutdown initiated with mode: 1
+[05/27/2015 3:48:50 PM] [INFO] [File manager] : Shutdown initiated
+[05/27/2015 3:48:50 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[05/27/2015 3:48:50 PM] [INFO] [File manager] : Offloaded 4 computers from memory
+[05/27/2015 3:48:50 PM] [INFO] [File manager] : Shutdown complete.
+[05/27/2015 3:48:50 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[05/27/2015 3:48:50 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---LOG CLOSED---

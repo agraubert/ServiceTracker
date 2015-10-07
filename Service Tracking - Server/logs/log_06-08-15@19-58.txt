@@ -1,0 +1,61 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version -17) made by Aaron Graubert
+[06/08/2015 7:58:12 PM] [INFO] [Server main] : Server startup initiated
+[06/08/2015 7:58:12 PM] [INFO] [File manager] : Starting up
+[06/08/2015 7:58:12 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[06/08/2015 7:58:12 PM] [INFO] [Server main] : Server display active
+[06/08/2015 7:58:12 PM] [INFO] [Server main] : *****Startup complete.  Server is now live*****
+[06/08/2015 7:58:15 PM] [INFO] [Server main] : Allocating new connection slot
+[06/08/2015 7:58:15 PM] [INFO] [Thread 0] : Checked in new client
+[06/08/2015 7:58:15 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 7:58:16 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 7:58:18 PM] [INFO] [File manager] : Computer "v-17 test" now loaded by request
+[06/08/2015 7:58:18 PM] [INFO] [Thread 0] : Providing requested computer: v-17 test
+[06/08/2015 7:58:21 PM] [INFO] [File manager] : Computer "additional computer" now loaded by request
+[06/08/2015 7:58:21 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[06/08/2015 7:58:28 PM] [INFO] [Thread 0] : Providing requested computer: v-17 test
+[06/08/2015 7:58:31 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[06/08/2015 7:59:00 PM] [INFO] [Thread 0] : Preparing to edit requested computer: additional computer
+[06/08/2015 7:59:01 PM] [INFO] [File manager] : Computer "additional computer" has been updated
+[06/08/2015 7:59:20 PM] [INFO] [File manager] : Computer "Drive computer" now loaded by request
+[06/08/2015 7:59:20 PM] [INFO] [Thread 0] : Providing requested computer: Drive computer
+[06/08/2015 7:59:30 PM] [INFO] [Thread 0] : Preparing to edit requested computer: Drive computer
+[06/08/2015 7:59:30 PM] [INFO] [File manager] : Computer "Drive computer" has been updated
+[06/08/2015 7:59:33 PM] [INFO] [Thread 0] : Providing requested computer: Drive computer
+[06/08/2015 7:59:34 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[06/08/2015 7:59:35 PM] [INFO] [Thread 0] : Providing requested computer: v-17 test
+[06/08/2015 8:00:59 PM] [INFO] [File manager] : Starting a sub thread to track new hardware: to be renamed
+[06/08/2015 8:00:59 PM] [INFO] [File manager->Sub thread] : New computer added: to be renamed
+[06/08/2015 8:01:01 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[06/08/2015 8:01:02 PM] [INFO] [Thread 0] : Providing requested computer: to be renamed
+[06/08/2015 8:01:06 PM] [INFO] [Thread 0] : Providing requested computer: to be renamed
+[06/08/2015 8:01:33 PM] [INFO] [Thread 0] : Preparing to edit requested computer: to be renamed
+[06/08/2015 8:01:34 PM] [WARN] [File manager] : Computer "to be renamed" has been renamed to "has been renamed".  File index is being updated.
+[06/08/2015 8:01:34 PM] [INFO] [File manager] : Computer "has been renamed" has been updated
+[06/08/2015 8:01:46 PM] [INFO] [Thread 0] : Providing requested computer: v-17 test
+[06/08/2015 8:01:48 PM] [INFO] [File manager] : Computer "testMachine" now loaded by request
+[06/08/2015 8:01:48 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[06/08/2015 8:01:50 PM] [INFO] [Thread 0] : Providing requested computer: has been renamed
+[06/08/2015 8:02:05 PM] [INFO] [Thread 0] : Providing requested computer: Drive computer
+[06/08/2015 8:02:06 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 8:02:07 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 8:02:10 PM] [INFO] [Thread 0] : Client checked out
+[06/08/2015 8:03:03 PM] [INFO] [Thread 0] : Checked in new client
+[06/08/2015 8:03:04 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 8:03:04 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 8:03:06 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[06/08/2015 8:03:09 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 8:03:09 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 8:03:16 PM] [INFO] [Thread 0] : Client initated standard shutdown
+[06/08/2015 8:03:16 PM] [INFO] [Thread 0] : Client checked out
+[06/08/2015 8:03:18 PM] [INFO] [Server main] : *****Shutdown initiated with mode: 1*****
+[06/08/2015 8:03:18 PM] [INFO] [File manager] : Shutdown initiated
+[06/08/2015 8:03:18 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[06/08/2015 8:03:18 PM] [INFO] [File manager] : Offloaded 5 computers from memory
+[06/08/2015 8:03:18 PM] [INFO] [File manager] : Shutdown complete.
+[06/08/2015 8:03:18 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[06/08/2015 8:03:18 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---Warning summary---
+[WARN] [File manager] : Computer "to be renamed" has been renamed to "has been renamed".  File index is being updated.
+It is recommended that you review each warning to avoid further problems
+---LOG CLOSED---

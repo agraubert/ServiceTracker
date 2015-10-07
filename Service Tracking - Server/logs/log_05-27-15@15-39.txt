@@ -1,0 +1,47 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version -15) made by Aaron Graubert
+[05/27/2015 3:39:49 PM] [INFO] [Server main] : Server startup initiated
+[05/27/2015 3:39:49 PM] [INFO] [File manager] : Starting up
+[05/27/2015 3:39:49 PM] [WARN] [File manager] : No timestamp for computer "francis".  Timestamps are kept since v-15.  Will attempt to parse from patch notes
+[05/27/2015 3:39:49 PM] [INFO] [File manager] : Successfully parsed timestamp from date of last patch for computer "francis"
+[05/27/2015 3:39:49 PM] [WARN] [File manager] : No timestamp for computer "EvenNewerMachine".  Timestamps are kept since v-15.  Will attempt to parse from patch notes
+[05/27/2015 3:39:49 PM] [WARN] [File manager] : Failed to parse a timestamp for computer "EvenNewerMachine".  Auto-generating now
+[05/27/2015 3:39:49 PM] [WARN] [File manager] : No timestamp for computer "testMachine".  Timestamps are kept since v-15.  Will attempt to parse from patch notes
+[05/27/2015 3:39:49 PM] [INFO] [File manager] : Successfully parsed timestamp from date of last patch for computer "testMachine"
+[05/27/2015 3:39:49 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[05/27/2015 3:39:49 PM] [INFO] [Server main] : Server display active
+[05/27/2015 3:39:53 PM] [INFO] [Server main] : Allocating new connection slot
+[05/27/2015 3:39:53 PM] [INFO] [Thread 0] : Checked in new client
+[05/27/2015 3:39:54 PM] [INFO] [Thread 0] : Providing hardware inventory
+[05/27/2015 3:39:54 PM] [INFO] [Thread 0] : Providing images inventory
+[05/27/2015 3:39:59 PM] [INFO] [File manager] : Computer "EvenNewerMachine" now loaded by request
+[05/27/2015 3:39:59 PM] [INFO] [Thread 0] : Providing requested computer: EvenNewerMachine
+[05/27/2015 3:40:01 PM] [INFO] [File manager] : Computer "additional computer" now loaded by request
+[05/27/2015 3:40:01 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[05/27/2015 3:40:03 PM] [INFO] [File manager] : Computer "francis" now loaded by request
+[05/27/2015 3:40:03 PM] [INFO] [Thread 0] : Providing requested computer: francis
+[05/27/2015 3:40:08 PM] [INFO] [File manager] : Computer "testMachine" now loaded by request
+[05/27/2015 3:40:08 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[05/27/2015 3:40:23 PM] [INFO] [Thread 0] : Client added note to computer: testMachine
+[05/27/2015 3:40:29 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[05/27/2015 3:40:33 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[05/27/2015 3:40:37 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[05/27/2015 3:40:47 PM] [INFO] [Thread 0] : Client added note to computer: additional computer
+[05/27/2015 3:40:51 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[05/27/2015 3:41:02 PM] [INFO] [Thread 0] : Client added note to computer: additional computer
+[05/27/2015 3:41:08 PM] [INFO] [Thread 0] : Providing requested computer: EvenNewerMachine
+[05/27/2015 3:41:10 PM] [INFO] [Thread 0] : Client checked out
+[05/27/2015 3:41:13 PM] [INFO] [Server main] : Shutdown initiated with mode: 1
+[05/27/2015 3:41:13 PM] [INFO] [File manager] : Shutdown initiated
+[05/27/2015 3:41:13 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[05/27/2015 3:41:13 PM] [INFO] [File manager] : Offloaded 4 computers from memory
+[05/27/2015 3:41:13 PM] [INFO] [File manager] : Shutdown complete.
+[05/27/2015 3:41:13 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[05/27/2015 3:41:13 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---Warning summary---
+[WARN] [File manager] : No timestamp for computer "francis".  Timestamps are kept since v-15.  Will attempt to parse from patch notes
+[WARN] [File manager] : No timestamp for computer "EvenNewerMachine".  Timestamps are kept since v-15.  Will attempt to parse from patch notes
+[WARN] [File manager] : Failed to parse a timestamp for computer "EvenNewerMachine".  Auto-generating now
+[WARN] [File manager] : No timestamp for computer "testMachine".  Timestamps are kept since v-15.  Will attempt to parse from patch notes
+It is recommended that you review each warning to avoid further problems
+---LOG CLOSED---

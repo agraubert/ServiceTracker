@@ -1,0 +1,22 @@
+---LOG STARTED---
+[05/26/2015 4:01:47 PM] [INFO] [Server main] : Server startup initiated
+[05/26/2015 4:01:47 PM] [INFO] [File manager] : Starting up
+[05/26/2015 4:01:47 PM] [INFO] [Server main] : Server display active
+[05/26/2015 4:01:50 PM] [INFO] [Thread 0] : Checked in new client
+[05/26/2015 4:01:51 PM] [INFO] [Thread 0] : Providing hardware inventory
+[05/26/2015 4:01:51 PM] [INFO] [Thread 0] : Providing images inventory
+[05/26/2015 4:02:03 PM] [INFO] [Thread 1] : Checked in new client
+[05/26/2015 4:02:04 PM] [INFO] [Thread 1] : Providing hardware inventory
+[05/26/2015 4:02:04 PM] [INFO] [Thread 1] : Providing images inventory
+[05/26/2015 4:02:14 PM] [INFO] [Thread 0] : Client checked out
+[05/26/2015 4:02:20 PM] [INFO] [Thread 0] : Checked in new client
+[05/26/2015 4:02:20 PM] [INFO] [Thread 0] : Providing hardware inventory
+[05/26/2015 4:02:21 PM] [INFO] [Thread 0] : Providing images inventory
+[05/26/2015 4:02:26 PM] [INFO] [Thread 0] : Client checked out
+[05/26/2015 4:02:28 PM] [INFO] [Thread 1] : Client checked out
+[05/26/2015 4:02:30 PM] [INFO] [Server main] : Shutdown initiated with mode: 1
+[05/26/2015 4:02:30 PM] [INFO] [File manager] : Shutdown initiated
+[05/26/2015 4:02:30 PM] [INFO] [File manager] : Shutdown complete.
+[05/26/2015 4:02:30 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[05/26/2015 4:02:30 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---LOG CLOSED---

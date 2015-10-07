@@ -1,0 +1,19 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version -15) made by Aaron Graubert
+[05/27/2015 8:22:08 PM] [INFO] [Server main] : Server startup initiated
+[05/27/2015 8:22:08 PM] [INFO] [File manager] : Starting up
+[05/27/2015 8:22:08 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[05/27/2015 8:22:08 PM] [INFO] [Server main] : Server display active
+[05/27/2015 8:22:08 PM] [INFO] [Server main] : *****Startup complete.  Server is now live*****
+[05/27/2015 8:22:24 PM] [INFO] [Server main] : Allocating new connection slot
+[05/27/2015 8:22:24 PM] [INFO] [Thread 0] : Checked in new client
+[05/27/2015 8:22:25 PM] [INFO] [Thread 0] : Providing hardware inventory
+[05/27/2015 8:22:25 PM] [INFO] [Thread 0] : Providing images inventory
+[05/27/2015 8:22:29 PM] [INFO] [Thread 0] : Client checked out
+[05/27/2015 8:22:34 PM] [INFO] [Server main] : *****Shutdown initiated with mode: 1*****
+[05/27/2015 8:22:34 PM] [INFO] [File manager] : Shutdown initiated
+[05/27/2015 8:22:34 PM] [INFO] [File manager] : Database empty.  Offload processs skipped.
+[05/27/2015 8:22:34 PM] [INFO] [File manager] : Shutdown complete.
+[05/27/2015 8:22:34 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[05/27/2015 8:22:34 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---LOG CLOSED---

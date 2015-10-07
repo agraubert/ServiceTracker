@@ -1,0 +1,22 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version 2) made by Aaron Graubert
+[10/05/2015 7:17:48 PM] [INFO] [Server main] : Server startup initiated
+[10/05/2015 7:17:48 PM] [INFO] [File manager] : Starting up
+[10/05/2015 7:17:48 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[10/05/2015 7:17:49 PM] [INFO] [Server main] : Server display active
+[10/05/2015 7:17:49 PM] [INFO] [Server main] : *****Startup complete.  Server is now live*****
+[10/05/2015 7:17:58 PM] [INFO] [Server main] : Allocating new connection slot
+[10/05/2015 7:17:58 PM] [INFO] [Thread 0] : Checked in new client
+[10/05/2015 7:17:58 PM] [INFO] [Thread 0] : Providing hardware inventory
+[10/05/2015 7:17:58 PM] [INFO] [Thread 0] : Providing images inventory
+[10/05/2015 7:18:00 PM] [INFO] [File manager] : Computer "concurrency name changed fornote" now loaded by request
+[10/05/2015 7:18:00 PM] [INFO] [Thread 0] : Providing requested computer: concurrency name changed fornote
+[10/05/2015 7:18:25 PM] [INFO] [Thread 0] : Client checked out
+[10/05/2015 7:18:43 PM] [INFO] [Server main] : *****Shutdown initiated with mode: 1*****
+[10/05/2015 7:18:43 PM] [INFO] [File manager] : Shutdown initiated
+[10/05/2015 7:18:43 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[10/05/2015 7:18:43 PM] [INFO] [File manager] : Offloaded 1 computers from memory
+[10/05/2015 7:18:43 PM] [INFO] [File manager] : Shutdown complete.
+[10/05/2015 7:18:43 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[10/05/2015 7:18:43 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---LOG CLOSED---

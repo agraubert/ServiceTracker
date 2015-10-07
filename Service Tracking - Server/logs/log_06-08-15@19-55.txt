@@ -1,0 +1,42 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version -17) made by Aaron Graubert
+[06/08/2015 7:55:30 PM] [INFO] [Server main] : Server startup initiated
+[06/08/2015 7:55:30 PM] [INFO] [File manager] : Starting up
+[06/08/2015 7:55:30 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[06/08/2015 7:55:30 PM] [INFO] [Server main] : Server display active
+[06/08/2015 7:55:30 PM] [INFO] [Server main] : *****Startup complete.  Server is now live*****
+[06/08/2015 7:55:33 PM] [INFO] [Server main] : Allocating new connection slot
+[06/08/2015 7:55:33 PM] [INFO] [Thread 0] : Checked in new client
+[06/08/2015 7:55:34 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 7:55:34 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 7:55:37 PM] [INFO] [File manager] : Computer "additional computer" now loaded by request
+[06/08/2015 7:55:37 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[06/08/2015 7:55:39 PM] [INFO] [File manager] : Computer "Drive computer" now loaded by request
+[06/08/2015 7:55:39 PM] [INFO] [Thread 0] : Providing requested computer: Drive computer
+[06/08/2015 7:55:44 PM] [WARN] [File manager] : File for computer "EvenNewerMachine" is in v-16 format (this will be fixed automatically when the computer is offloaded).  Using default data
+[06/08/2015 7:55:44 PM] [INFO] [File manager] : Computer "EvenNewerMachine" now loaded by request
+[06/08/2015 7:55:44 PM] [INFO] [Thread 0] : Providing requested computer: EvenNewerMachine
+[06/08/2015 7:55:46 PM] [INFO] [File manager] : Computer "francis" now loaded by request
+[06/08/2015 7:55:46 PM] [INFO] [Thread 0] : Providing requested computer: francis
+[06/08/2015 7:55:48 PM] [INFO] [File manager] : Computer "testMachine" now loaded by request
+[06/08/2015 7:55:48 PM] [INFO] [Thread 0] : Providing requested computer: testMachine
+[06/08/2015 7:56:48 PM] [INFO] [File manager] : Starting a sub thread to track new hardware: v-17 test
+[06/08/2015 7:56:48 PM] [INFO] [File manager->Sub thread] : New computer added: v-17 test
+[06/08/2015 7:56:51 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[06/08/2015 7:56:54 PM] [INFO] [Thread 0] : Providing requested computer: v-17 test
+[06/08/2015 7:56:56 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[06/08/2015 7:57:08 PM] [INFO] [Thread 0] : Preparing to edit requested computer: additional computer
+[06/08/2015 7:57:08 PM] [INFO] [File manager] : Computer "additional computer" has been updated
+[06/08/2015 7:57:19 PM] [INFO] [Thread 0] : Client initated standard shutdown
+[06/08/2015 7:57:19 PM] [INFO] [Thread 0] : Client checked out
+[06/08/2015 7:57:23 PM] [INFO] [Server main] : *****Shutdown initiated with mode: 1*****
+[06/08/2015 7:57:23 PM] [INFO] [File manager] : Shutdown initiated
+[06/08/2015 7:57:23 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[06/08/2015 7:57:23 PM] [INFO] [File manager] : Offloaded 6 computers from memory
+[06/08/2015 7:57:23 PM] [INFO] [File manager] : Shutdown complete.
+[06/08/2015 7:57:23 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[06/08/2015 7:57:23 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---Warning summary---
+[WARN] [File manager] : File for computer "EvenNewerMachine" is in v-16 format (this will be fixed automatically when the computer is offloaded).  Using default data
+It is recommended that you review each warning to avoid further problems
+---LOG CLOSED---

@@ -1,0 +1,10 @@
+---LOG STARTED---
+[05/26/2015 1:57:52 PM] [INFO] [Server main] : Server startup initiated
+[05/26/2015 1:57:52 PM] [INFO] [File manager] : Starting up
+[05/26/2015 1:57:53 PM] [INFO] [Server main] : Server display active
+[05/26/2015 1:57:58 PM] [INFO] [Server main] : Shutdown initiated with mode: 1
+[05/26/2015 1:57:58 PM] [INFO] [File manager] : Shutdown initiated
+[05/26/2015 1:57:58 PM] [INFO] [File manager] : Shutdown complete.
+[05/26/2015 1:57:58 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[05/26/2015 1:57:58 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---LOG CLOSED---

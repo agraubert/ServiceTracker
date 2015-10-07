@@ -1,0 +1,7 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version 1) made by Aaron Graubert
+[06/17/2015 3:23:33 PM] [INFO] [Server main] : Server startup initiated
+[06/17/2015 3:23:33 PM] [INFO] [File manager] : Starting up
+[06/17/2015 3:23:38 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[06/17/2015 3:23:39 PM] [INFO] [Server main] : Server display active
+[06/17/2015 3:23:39 PM] [INFO] [Server main] : *****Startup complete.  Server is now live*****

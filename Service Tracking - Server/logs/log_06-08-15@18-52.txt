@@ -1,0 +1,27 @@
+---LOG STARTED---
+WULIB Service Tracking Server (Version -17) made by Aaron Graubert
+[06/08/2015 6:52:50 PM] [INFO] [Server main] : Server startup initiated
+[06/08/2015 6:52:50 PM] [INFO] [File manager] : Starting up
+[06/08/2015 6:52:50 PM] [INFO] [File manager] : Startup complete, inventory loaded
+[06/08/2015 6:52:50 PM] [INFO] [Server main] : Server display active
+[06/08/2015 6:52:50 PM] [INFO] [Server main] : *****Startup complete.  Server is now live*****
+[06/08/2015 6:52:53 PM] [INFO] [Server main] : Allocating new connection slot
+[06/08/2015 6:52:53 PM] [INFO] [Thread 0] : Checked in new client
+[06/08/2015 6:52:54 PM] [INFO] [Thread 0] : Providing hardware inventory
+[06/08/2015 6:52:54 PM] [INFO] [Thread 0] : Providing images inventory
+[06/08/2015 6:52:58 PM] [WARN] [File manager] : File for computer "additional computer" is in v-16 format (this will be fixed automatically when the computer is offloaded).  Using default data
+[06/08/2015 6:52:58 PM] [INFO] [File manager] : Computer "additional computer" now loaded by request
+[06/08/2015 6:52:58 PM] [INFO] [Thread 0] : Providing requested computer: additional computer
+[06/08/2015 6:53:09 PM] [INFO] [Thread 0] : Client initated standard shutdown
+[06/08/2015 6:53:09 PM] [INFO] [Thread 0] : Client checked out
+[06/08/2015 6:53:13 PM] [INFO] [Server main] : *****Shutdown initiated with mode: 1*****
+[06/08/2015 6:53:13 PM] [INFO] [File manager] : Shutdown initiated
+[06/08/2015 6:53:13 PM] [INFO] [File manager] : Preparing to offload all hardware from memory
+[06/08/2015 6:53:13 PM] [INFO] [File manager] : Offloaded 1 computers from memory
+[06/08/2015 6:53:13 PM] [INFO] [File manager] : Shutdown complete.
+[06/08/2015 6:53:13 PM] [INFO] [Server main] : All components shutdown.  Ready to close log
+[06/08/2015 6:53:13 PM] [INFO] [LOGGER] : Logging queue closed.  Log shutdown initiated.
+---Warning summary---
+[WARN] [File manager] : File for computer "additional computer" is in v-16 format (this will be fixed automatically when the computer is offloaded).  Using default data
+It is recommended that you review each warning to avoid further problems
+---LOG CLOSED---
